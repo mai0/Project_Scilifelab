@@ -1,0 +1,14 @@
+$ ../Project/general_scripts/psiblast_new/seq148.psi  
+tail ../Project/general_scripts/psiblast_new/seq148.psi 
+head ../Project/general_scripts/psiblast_new/seq148.psi 
+ tail -2 ../Project/general_scripts/psiblast_new/seq148.psi
+ tail +2 ../Project/general_scripts/psiblast_new/seq148.psi
+tail -n +2 ../Project/general_scripts/psiblast_new/seq148.psi 
+ head -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | tail -10 |less
+tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head -10 |less
+ tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head +10 |less
+tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head 10 |less
+tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head -10 |less
+ tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | less
+tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head -n -10 |less
+ tail -n +4 ../Project/general_scripts/psiblast_new/seq148.psi | head -n -6 |less
