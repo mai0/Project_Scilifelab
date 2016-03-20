@@ -1,0 +1,1033 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= d1e0na_.b.72.1.1
+         (27 letters)
+
+Database: uniref90.fasta 
+           40,253,516 sequences; 13,556,848,365 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain A...    68   1e-09
+UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces euba...    68   1e-09
+UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H...    67   2e-09
+UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36...    67   2e-09
+UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC      60   2e-07
+UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii (s...    59   8e-07
+UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora b...    59   8e-07
+UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea lanzaro...    58   1e-06
+UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora delb...    57   2e-06
+UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3 ...    57   2e-06
+UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36...    57   3e-06
+UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora p...    57   3e-06
+UniRef90_A7TGR7 Putative uncharacterized protein n=1 Tax=Vanderw...    54   1e-05
+UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania afr...    54   2e-05
+UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania nag...    49   9e-04
+UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma cast...    48   0.001
+UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36...    47   0.002
+UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36...    47   0.002
+UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107...    45   0.007
+UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2 Tax=Kluyv...    45   0.010
+UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma dair...    41   0.17 
+
+>UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain
+           AWRI796) RepID=E7KE35_YEASA
+          Length = 537
+
+ Score = 68.2 bits (165), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces
+           eubayanus RepID=A0A0L8RG69_SACEU
+          Length = 736
+
+ Score = 67.8 bits (164), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENGRPLYYNAEQKTKLHYPP
+Sbjct: 481 PGWEVIHENGRPLYYNAEQKTKLHYPP 507
+
+
+>UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H-6
+           / AS 2.3317 / CBS 10644) RepID=J8Q6K1_SACAR
+          Length = 736
+
+ Score = 67.4 bits (163), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 482 PGWEIIHENGRPLYYNAEQKTKLHYPP 508
+
+
+>UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=108 Tax=Saccharomyces RepID=SET2_YEAST
+          Length = 733
+
+ Score = 67.0 bits (162), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC
+          Length = 686
+
+ Score = 60.5 bits (145), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENG+P+YYNA+Q+TKLH+PP
+Sbjct: 455 PGWEIIHENGKPVYYNAQQQTKLHHPP 481
+
+
+>UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii
+           (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 /
+           NRRL Y-229) RepID=C5E179_ZYGRC
+          Length = 680
+
+ Score = 58.5 bits (140), Expect = 8e-07,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+QKTKLH PP
+Sbjct: 455 PGWEIVHENGKPMYYNAQQKTKLHQPP 481
+
+
+>UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora
+           blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC
+           10599 / NRRL Y-10934 / UCD 77-7) RepID=I2H9Q0_TETBL
+          Length = 745
+
+ Score = 58.5 bits (140), Expect = 8e-07,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNA+Q+TKLHYPP
+Sbjct: 471 PGWEILQENGRPVYYNAKQQTKLHYPP 497
+
+
+>UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea
+           lanzarotensis RepID=A0A0C7NFD8_9SACH
+          Length = 693
+
+ Score = 58.2 bits (139), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENG+P+YYNA+Q+TKLH PP
+Sbjct: 460 PGWELIHENGKPVYYNAQQQTKLHQPP 486
+
+
+>UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora
+           delbrueckii (strain ATCC 10662 / CBS 1146 / NBRC 0425 /
+           NCYC 2629 / NRRL Y-866) RepID=G8ZYV1_TORDC
+          Length = 687
+
+ Score = 57.4 bits (137), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE++HENG+P+YYNA++KTKLH PP
+Sbjct: 455 PGWEVVHENGKPMYYNAQKKTKLHTPP 481
+
+
+>UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3
+           lysine-36 specific n=3 Tax=Zygosaccharomyces bailii
+           RepID=W0W441_ZYGBA
+          Length = 679
+
+ Score = 57.4 bits (137), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ KTKLH PP
+Sbjct: 454 PGWEIVHENGKPMYYNAQLKTKLHQPP 480
+
+
+>UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Candida glabrata (strain ATCC 2001 /
+           CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)
+           RepID=SET2_CANGA
+          Length = 716
+
+ Score = 57.0 bits (136), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNAE+KTKL YPP
+Sbjct: 483 PGWEIVFENGRPMYYNAEKKTKLLYPP 509
+
+
+>UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora
+           phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL
+           Y-8282 / UCD 70-5) RepID=G8BN76_TETPH
+          Length = 707
+
+ Score = 56.6 bits (135), Expect = 3e-06,   Method: Composition-based stats.
+ Identities = 22/26 (84%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+ KTKLH PP
+Sbjct: 460 GWEIIHENGRPMYYNAQLKTKLHNPP 485
+
+
+>UniRef90_A7TGR7 Putative uncharacterized protein n=1
+           Tax=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM
+           70294) RepID=A7TGR7_VANPO
+          Length = 693
+
+ Score = 54.3 bits (129), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ +TKL +PP
+Sbjct: 458 PGWEIVHENGQPMYYNAQLQTKLRHPP 484
+
+
+>UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania
+           africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 /
+           CECT 1963 / NBRC 1671 / NRRL Y-8276) RepID=H2AWM4_KAZAF
+          Length = 711
+
+ Score = 53.9 bits (128), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 23/27 (85%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEII ENGRP+YYNA+QK KL  PP
+Sbjct: 467 PGWEIIQENGRPMYYNAQQKRKLSEPP 493
+
+
+>UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania
+           naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797
+           / CCRC 22969 / KCTC 17520 / NBRC 10181 / NCYC 3082)
+           RepID=J7RWH2_KAZNA
+          Length = 708
+
+ Score = 48.5 bits (114), Expect = 9e-04,   Method: Composition-based stats.
+ Identities = 18/27 (66%), Positives = 22/27 (81%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+I ENGRP+YYNA++  KL  PP
+Sbjct: 457 PGWEMIQENGRPMYYNAQEHRKLAEPP 483
+
+
+>UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma
+           castellii (strain ATCC 76901 / CBS 4309 / NBRC 1992 /
+           NRRL Y-12630) RepID=G0VKC2_NAUCC
+          Length = 726
+
+ Score = 47.8 bits (112), Expect = 0.001,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII+ENGRP+Y+NA+++ KL+ PP
+Sbjct: 455 GWEIIYENGRPIYFNAQRQIKLNEPP 480
+
+
+>UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=3 Tax=Saccharomycetaceae RepID=SET2_ASHGO
+          Length = 684
+
+ Score = 47.4 bits (111), Expect = 0.002,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 457 GWEIIHENGRPMYYNAQRQIKRVDPP 482
+
+
+>UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Kluyveromyces lactis (strain ATCC 8585
+           / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)
+           RepID=SET2_KLULA
+          Length = 702
+
+ Score = 47.0 bits (110), Expect = 0.002,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 450 GWEIIHENGRPVYYNAQRQIKQANPP 475
+
+
+>UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107
+           n=1 Tax=Kluyveromyces dobzhanskii CBS 2104
+           RepID=A0A0A8L0V6_9SACH
+          Length = 701
+
+ Score = 45.4 bits (106), Expect = 0.007,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEI+HENG+P+YYNA+++ K   PP
+Sbjct: 448 GWEIVHENGKPMYYNAQRQIKQANPP 473
+
+
+>UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2
+           Tax=Kluyveromyces marxianus RepID=W0T3M6_KLUMA
+          Length = 712
+
+ Score = 45.1 bits (105), Expect = 0.010,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWE+IHENG+P+YYNA+++ K   PP
+Sbjct: 451 GWELIHENGKPVYYNAQRQIKQSVPP 476
+
+
+>UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma
+           dairenensis (strain ATCC 10597 / BCRC 20456 / CBS 421 /
+           NBRC 0211 / NRRL Y-12639) RepID=G0W5J9_NAUDC
+          Length = 795
+
+ Score = 40.8 bits (94), Expect = 0.17,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 21/26 (80%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII ENGR L++NAE++ KL  PP
+Sbjct: 465 GWEIIFENGRRLFFNAEREIKLTEPP 490
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC      70   3e-10
+UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain A...    70   4e-10
+UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H...    70   4e-10
+UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36...    70   4e-10
+UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces euba...    69   6e-10
+UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii (s...    68   9e-10
+UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea lanzaro...    68   1e-09
+UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3 ...    68   1e-09
+UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora delb...    67   2e-09
+UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora b...    66   4e-09
+UniRef90_A7TGR7 Putative uncharacterized protein n=1 Tax=Vanderw...    66   4e-09
+UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania afr...    66   5e-09
+UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora p...    65   6e-09
+UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36...    64   2e-08
+UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania nag...    63   2e-08
+UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36...    62   1e-07
+UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma cast...    60   3e-07
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36...    59   5e-07
+UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107...    59   6e-07
+UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2 Tax=Kluyv...    56   5e-06
+UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma dair...    49   6e-04
+
+>UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC
+          Length = 686
+
+ Score = 70.0 bits (170), Expect = 3e-10,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENG+P+YYNA+Q+TKLH+PP
+Sbjct: 455 PGWEIIHENGKPVYYNAQQQTKLHHPP 481
+
+
+>UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain
+           AWRI796) RepID=E7KE35_YEASA
+          Length = 537
+
+ Score = 69.6 bits (169), Expect = 4e-10,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H-6
+           / AS 2.3317 / CBS 10644) RepID=J8Q6K1_SACAR
+          Length = 736
+
+ Score = 69.6 bits (169), Expect = 4e-10,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 482 PGWEIIHENGRPLYYNAEQKTKLHYPP 508
+
+
+>UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=108 Tax=Saccharomyces RepID=SET2_YEAST
+          Length = 733
+
+ Score = 69.6 bits (169), Expect = 4e-10,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces
+           eubayanus RepID=A0A0L8RG69_SACEU
+          Length = 736
+
+ Score = 68.8 bits (167), Expect = 6e-10,   Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENGRPLYYNAEQKTKLHYPP
+Sbjct: 481 PGWEVIHENGRPLYYNAEQKTKLHYPP 507
+
+
+>UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii
+           (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 /
+           NRRL Y-229) RepID=C5E179_ZYGRC
+          Length = 680
+
+ Score = 68.4 bits (166), Expect = 9e-10,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+QKTKLH PP
+Sbjct: 455 PGWEIVHENGKPMYYNAQQKTKLHQPP 481
+
+
+>UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea
+           lanzarotensis RepID=A0A0C7NFD8_9SACH
+          Length = 693
+
+ Score = 68.0 bits (165), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENG+P+YYNA+Q+TKLH PP
+Sbjct: 460 PGWELIHENGKPVYYNAQQQTKLHQPP 486
+
+
+>UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3
+           lysine-36 specific n=3 Tax=Zygosaccharomyces bailii
+           RepID=W0W441_ZYGBA
+          Length = 679
+
+ Score = 68.0 bits (165), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ KTKLH PP
+Sbjct: 454 PGWEIVHENGKPMYYNAQLKTKLHQPP 480
+
+
+>UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora
+           delbrueckii (strain ATCC 10662 / CBS 1146 / NBRC 0425 /
+           NCYC 2629 / NRRL Y-866) RepID=G8ZYV1_TORDC
+          Length = 687
+
+ Score = 67.3 bits (163), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE++HENG+P+YYNA++KTKLH PP
+Sbjct: 455 PGWEVVHENGKPMYYNAQKKTKLHTPP 481
+
+
+>UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora
+           blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC
+           10599 / NRRL Y-10934 / UCD 77-7) RepID=I2H9Q0_TETBL
+          Length = 745
+
+ Score = 66.1 bits (160), Expect = 4e-09,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNA+Q+TKLHYPP
+Sbjct: 471 PGWEILQENGRPVYYNAKQQTKLHYPP 497
+
+
+>UniRef90_A7TGR7 Putative uncharacterized protein n=1
+           Tax=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM
+           70294) RepID=A7TGR7_VANPO
+          Length = 693
+
+ Score = 66.1 bits (160), Expect = 4e-09,   Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ +TKL +PP
+Sbjct: 458 PGWEIVHENGQPMYYNAQLQTKLRHPP 484
+
+
+>UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania
+           africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 /
+           CECT 1963 / NBRC 1671 / NRRL Y-8276) RepID=H2AWM4_KAZAF
+          Length = 711
+
+ Score = 65.7 bits (159), Expect = 5e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 23/27 (85%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEII ENGRP+YYNA+QK KL  PP
+Sbjct: 467 PGWEIIQENGRPMYYNAQQKRKLSEPP 493
+
+
+>UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora
+           phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL
+           Y-8282 / UCD 70-5) RepID=G8BN76_TETPH
+          Length = 707
+
+ Score = 65.4 bits (158), Expect = 6e-09,   Method: Composition-based stats.
+ Identities = 22/26 (84%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+ KTKLH PP
+Sbjct: 460 GWEIIHENGRPMYYNAQLKTKLHNPP 485
+
+
+>UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Candida glabrata (strain ATCC 2001 /
+           CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)
+           RepID=SET2_CANGA
+          Length = 716
+
+ Score = 64.2 bits (155), Expect = 2e-08,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNAE+KTKL YPP
+Sbjct: 483 PGWEIVFENGRPMYYNAEKKTKLLYPP 509
+
+
+>UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania
+           naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797
+           / CCRC 22969 / KCTC 17520 / NBRC 10181 / NCYC 3082)
+           RepID=J7RWH2_KAZNA
+          Length = 708
+
+ Score = 63.4 bits (153), Expect = 2e-08,   Method: Composition-based stats.
+ Identities = 18/27 (66%), Positives = 22/27 (81%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+I ENGRP+YYNA++  KL  PP
+Sbjct: 457 PGWEMIQENGRPMYYNAQEHRKLAEPP 483
+
+
+>UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=3 Tax=Saccharomycetaceae RepID=SET2_ASHGO
+          Length = 684
+
+ Score = 61.5 bits (148), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 457 GWEIIHENGRPMYYNAQRQIKRVDPP 482
+
+
+>UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma
+           castellii (strain ATCC 76901 / CBS 4309 / NBRC 1992 /
+           NRRL Y-12630) RepID=G0VKC2_NAUCC
+          Length = 726
+
+ Score = 60.0 bits (144), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII+ENGRP+Y+NA+++ KL+ PP
+Sbjct: 455 GWEIIYENGRPIYFNAQRQIKLNEPP 480
+
+
+>UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Kluyveromyces lactis (strain ATCC 8585
+           / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)
+           RepID=SET2_KLULA
+          Length = 702
+
+ Score = 59.2 bits (142), Expect = 5e-07,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 450 GWEIIHENGRPVYYNAQRQIKQANPP 475
+
+
+>UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107
+           n=1 Tax=Kluyveromyces dobzhanskii CBS 2104
+           RepID=A0A0A8L0V6_9SACH
+          Length = 701
+
+ Score = 58.8 bits (141), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEI+HENG+P+YYNA+++ K   PP
+Sbjct: 448 GWEIVHENGKPMYYNAQRQIKQANPP 473
+
+
+>UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2
+           Tax=Kluyveromyces marxianus RepID=W0T3M6_KLUMA
+          Length = 712
+
+ Score = 55.7 bits (133), Expect = 5e-06,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWE+IHENG+P+YYNA+++ K   PP
+Sbjct: 451 GWELIHENGKPVYYNAQRQIKQSVPP 476
+
+
+>UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma
+           dairenensis (strain ATCC 10597 / BCRC 20456 / CBS 421 /
+           NBRC 0211 / NRRL Y-12639) RepID=G0W5J9_NAUDC
+          Length = 795
+
+ Score = 49.2 bits (116), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 21/26 (80%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII ENGR L++NAE++ KL  PP
+Sbjct: 465 GWEIIFENGRRLFFNAEREIKLTEPP 490
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC      69   6e-10
+UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain A...    68   9e-10
+UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H...    68   9e-10
+UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36...    68   1e-09
+UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces euba...    68   1e-09
+UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea lanzaro...    67   2e-09
+UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii (s...    67   2e-09
+UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3 ...    66   3e-09
+UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora delb...    66   5e-09
+UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania afr...    65   9e-09
+UniRef90_A7TGR7 Putative uncharacterized protein n=1 Tax=Vanderw...    65   1e-08
+UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora p...    65   1e-08
+UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora b...    65   1e-08
+UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36...    63   3e-08
+UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania nag...    63   4e-08
+UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36...    62   6e-08
+UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36...    62   6e-08
+UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107...    62   8e-08
+UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma cast...    61   2e-07
+UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2 Tax=Kluyv...    59   6e-07
+UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma dair...    54   2e-05
+
+Sequences not found previously or not previously below threshold:
+
+
+CONVERGED!
+>UniRef90_C5DKG6 KLTH0F04510p n=2 Tax=Lachancea RepID=C5DKG6_LACTC
+          Length = 686
+
+ Score = 68.8 bits (167), Expect = 6e-10,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENG+P+YYNA+Q+TKLH+PP
+Sbjct: 455 PGWEIIHENGKPVYYNAQQQTKLHHPP 481
+
+
+>UniRef90_E7KE35 Set2p n=1 Tax=Saccharomyces cerevisiae (strain
+           AWRI796) RepID=E7KE35_YEASA
+          Length = 537
+
+ Score = 68.4 bits (166), Expect = 9e-10,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_J8Q6K1 Set2p n=1 Tax=Saccharomyces arboricola (strain H-6
+           / AS 2.3317 / CBS 10644) RepID=J8Q6K1_SACAR
+          Length = 736
+
+ Score = 68.4 bits (166), Expect = 9e-10,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 482 PGWEIIHENGRPLYYNAEQKTKLHYPP 508
+
+
+>UniRef90_P46995 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=108 Tax=Saccharomyces RepID=SET2_YEAST
+          Length = 733
+
+ Score = 68.4 bits (166), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEIIHENGRPLYYNAEQKTKLHYPP
+Sbjct: 479 PGWEIIHENGRPLYYNAEQKTKLHYPP 505
+
+
+>UniRef90_A0A0L8RG69 SET2-like protein n=1 Tax=Saccharomyces
+           eubayanus RepID=A0A0L8RG69_SACEU
+          Length = 736
+
+ Score = 67.6 bits (164), Expect = 1e-09,   Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENGRPLYYNAEQKTKLHYPP
+Sbjct: 481 PGWEVIHENGRPLYYNAEQKTKLHYPP 507
+
+
+>UniRef90_A0A0C7NFD8 LALA0S11e04016g1_1 n=1 Tax=Lachancea
+           lanzarotensis RepID=A0A0C7NFD8_9SACH
+          Length = 693
+
+ Score = 67.3 bits (163), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+IHENG+P+YYNA+Q+TKLH PP
+Sbjct: 460 PGWELIHENGKPVYYNAQQQTKLHQPP 486
+
+
+>UniRef90_C5E179 ZYRO0G18766p n=1 Tax=Zygosaccharomyces rouxii
+           (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 /
+           NRRL Y-229) RepID=C5E179_ZYGRC
+          Length = 680
+
+ Score = 66.9 bits (162), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+QKTKLH PP
+Sbjct: 455 PGWEIVHENGKPMYYNAQQKTKLHQPP 481
+
+
+>UniRef90_W0W441 Probable Histone-lysine N-methyltransferase, H3
+           lysine-36 specific n=3 Tax=Zygosaccharomyces bailii
+           RepID=W0W441_ZYGBA
+          Length = 679
+
+ Score = 66.5 bits (161), Expect = 3e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ KTKLH PP
+Sbjct: 454 PGWEIVHENGKPMYYNAQLKTKLHQPP 480
+
+
+>UniRef90_G8ZYV1 Uncharacterized protein n=1 Tax=Torulaspora
+           delbrueckii (strain ATCC 10662 / CBS 1146 / NBRC 0425 /
+           NCYC 2629 / NRRL Y-866) RepID=G8ZYV1_TORDC
+          Length = 687
+
+ Score = 66.1 bits (160), Expect = 5e-09,   Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE++HENG+P+YYNA++KTKLH PP
+Sbjct: 455 PGWEVVHENGKPMYYNAQKKTKLHTPP 481
+
+
+>UniRef90_H2AWM4 Uncharacterized protein n=1 Tax=Kazachstania
+           africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 /
+           CECT 1963 / NBRC 1671 / NRRL Y-8276) RepID=H2AWM4_KAZAF
+          Length = 711
+
+ Score = 64.9 bits (157), Expect = 9e-09,   Method: Composition-based stats.
+ Identities = 21/27 (77%), Positives = 23/27 (85%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEII ENGRP+YYNA+QK KL  PP
+Sbjct: 467 PGWEIIQENGRPMYYNAQQKRKLSEPP 493
+
+
+>UniRef90_A7TGR7 Putative uncharacterized protein n=1
+           Tax=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM
+           70294) RepID=A7TGR7_VANPO
+          Length = 693
+
+ Score = 64.9 bits (157), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+HENG+P+YYNA+ +TKL +PP
+Sbjct: 458 PGWEIVHENGQPMYYNAQLQTKLRHPP 484
+
+
+>UniRef90_G8BN76 Uncharacterized protein n=1 Tax=Tetrapisispora
+           phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL
+           Y-8282 / UCD 70-5) RepID=G8BN76_TETPH
+          Length = 707
+
+ Score = 64.6 bits (156), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 22/26 (84%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+ KTKLH PP
+Sbjct: 460 GWEIIHENGRPMYYNAQLKTKLHNPP 485
+
+
+>UniRef90_I2H9Q0 Uncharacterized protein n=1 Tax=Tetrapisispora
+           blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC
+           10599 / NRRL Y-10934 / UCD 77-7) RepID=I2H9Q0_TETBL
+          Length = 745
+
+ Score = 64.6 bits (156), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 26/27 (96%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNA+Q+TKLHYPP
+Sbjct: 471 PGWEILQENGRPVYYNAKQQTKLHYPP 497
+
+
+>UniRef90_Q6FX50 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Candida glabrata (strain ATCC 2001 /
+           CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)
+           RepID=SET2_CANGA
+          Length = 716
+
+ Score = 63.4 bits (153), Expect = 3e-08,   Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (92%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWEI+ ENGRP+YYNAE+KTKL YPP
+Sbjct: 483 PGWEIVFENGRPMYYNAEKKTKLLYPP 509
+
+
+>UniRef90_J7RWH2 Uncharacterized protein n=1 Tax=Kazachstania
+           naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797
+           / CCRC 22969 / KCTC 17520 / NBRC 10181 / NCYC 3082)
+           RepID=J7RWH2_KAZNA
+          Length = 708
+
+ Score = 63.0 bits (152), Expect = 4e-08,   Method: Composition-based stats.
+ Identities = 18/27 (66%), Positives = 22/27 (81%)
+
+Query: 1   PGWEIIHENGRPLYYNAEQKTKLHYPP 27
+           PGWE+I ENGRP+YYNA++  KL  PP
+Sbjct: 457 PGWEMIQENGRPMYYNAQEHRKLAEPP 483
+
+
+>UniRef90_Q6CXP5 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=1 Tax=Kluyveromyces lactis (strain ATCC 8585
+           / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)
+           RepID=SET2_KLULA
+          Length = 702
+
+ Score = 62.3 bits (150), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 450 GWEIIHENGRPVYYNAQRQIKQANPP 475
+
+
+>UniRef90_Q757Y8 Histone-lysine N-methyltransferase, H3 lysine-36
+           specific n=3 Tax=Saccharomycetaceae RepID=SET2_ASHGO
+          Length = 684
+
+ Score = 62.3 bits (150), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEIIHENGRP+YYNA+++ K   PP
+Sbjct: 457 GWEIIHENGRPMYYNAQRQIKRVDPP 482
+
+
+>UniRef90_A0A0A8L0V6 WGS project CCBQ000000000 data, contig 00107
+           n=1 Tax=Kluyveromyces dobzhanskii CBS 2104
+           RepID=A0A0A8L0V6_9SACH
+          Length = 701
+
+ Score = 61.9 bits (149), Expect = 8e-08,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEI+HENG+P+YYNA+++ K   PP
+Sbjct: 448 GWEIVHENGKPMYYNAQRQIKQANPP 473
+
+
+>UniRef90_G0VKC2 Uncharacterized protein n=1 Tax=Naumovozyma
+           castellii (strain ATCC 76901 / CBS 4309 / NBRC 1992 /
+           NRRL Y-12630) RepID=G0VKC2_NAUCC
+          Length = 726
+
+ Score = 61.1 bits (147), Expect = 2e-07,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 24/26 (92%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII+ENGRP+Y+NA+++ KL+ PP
+Sbjct: 455 GWEIIYENGRPIYFNAQRQIKLNEPP 480
+
+
+>UniRef90_W0T3M6 Histone-lysine N-methyltransferase n=2
+           Tax=Kluyveromyces marxianus RepID=W0T3M6_KLUMA
+          Length = 712
+
+ Score = 58.8 bits (141), Expect = 6e-07,   Method: Composition-based stats.
+ Identities = 16/26 (61%), Positives = 22/26 (84%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWE+IHENG+P+YYNA+++ K   PP
+Sbjct: 451 GWELIHENGKPVYYNAQRQIKQSVPP 476
+
+
+>UniRef90_G0W5J9 Uncharacterized protein n=1 Tax=Naumovozyma
+           dairenensis (strain ATCC 10597 / BCRC 20456 / CBS 421 /
+           NBRC 0211 / NRRL Y-12639) RepID=G0W5J9_NAUDC
+          Length = 795
+
+ Score = 53.8 bits (128), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 21/26 (80%)
+
+Query: 2   GWEIIHENGRPLYYNAEQKTKLHYPP 27
+           GWEII ENGR L++NAE++ KL  PP
+Sbjct: 465 GWEIIFENGRRLFFNAEREIKLTEPP 490
+
+
+  Database: uniref90.fasta
+    Posted date:  Mar 1, 2016  2:34 PM
+  Number of letters in database: 999,999,538
+  Number of sequences in database:  2,602,571
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.01
+    Posted date:  Mar 1, 2016  2:36 PM
+  Number of letters in database: 999,998,500
+  Number of sequences in database:  2,365,435
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.02
+    Posted date:  Mar 1, 2016  2:37 PM
+  Number of letters in database: 999,999,816
+  Number of sequences in database:  2,478,377
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.03
+    Posted date:  Mar 1, 2016  2:39 PM
+  Number of letters in database: 999,999,936
+  Number of sequences in database:  2,874,012
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.04
+    Posted date:  Mar 1, 2016  2:41 PM
+  Number of letters in database: 999,999,516
+  Number of sequences in database:  3,386,135
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.05
+    Posted date:  Mar 1, 2016  2:44 PM
+  Number of letters in database: 999,999,691
+  Number of sequences in database:  3,345,820
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.06
+    Posted date:  Mar 1, 2016  2:46 PM
+  Number of letters in database: 999,999,794
+  Number of sequences in database:  3,333,121
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.07
+    Posted date:  Mar 1, 2016  2:48 PM
+  Number of letters in database: 999,999,961
+  Number of sequences in database:  3,323,726
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.08
+    Posted date:  Mar 1, 2016  2:50 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,314,676
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.09
+    Posted date:  Mar 1, 2016  2:52 PM
+  Number of letters in database: 1,000,000,000
+  Number of sequences in database:  3,235,810
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.10
+    Posted date:  Mar 1, 2016  2:54 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,841,309
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.11
+    Posted date:  Mar 1, 2016  2:56 PM
+  Number of letters in database: 999,999,986
+  Number of sequences in database:  2,888,057
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.12
+    Posted date:  Mar 1, 2016  2:58 PM
+  Number of letters in database: 999,999,947
+  Number of sequences in database:  2,764,331
+  
+  Database: /home/mio/Desktop/uniref_90/uniref90.fasta.13
+    Posted date:  Mar 1, 2016  2:59 PM
+  Number of letters in database: 556,851,831
+  Number of sequences in database:  1,500,136
+  
+Lambda     K      H
+   0.301    0.147    0.532 
+
+Lambda     K      H
+   0.267   0.0437    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 2,362,787,645
+Number of Sequences: 40253516
+Number of extensions: 36775733
+Number of successful extensions: 52955
+Number of sequences better than 10.0: 21
+Number of HSP's better than 10.0 without gapping: 63
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 52892
+Number of HSP's gapped (non-prelim): 63
+length of query: 27
+length of database: 13,556,848,365
+effective HSP length: 2
+effective length of query: 25
+effective length of database: 13,476,341,333
+effective search space: 336908533325
+effective search space used: 336908533325
+T: 11
+A: 40
+X1: 16 ( 7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.0 bits)
+S2: 80 (35.3 bits)

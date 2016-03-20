@@ -11,6 +11,7 @@ def sigmoid(filename):
         lines = fid.read().splitlines()
 
     lines = [row.split()[2:22] for row in lines[3:-6]]
+    
 
     matrix = np.array(lines, dtype=float)
     matrix_sig = 1/(1 + np.exp(-matrix))
