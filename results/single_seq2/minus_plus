@@ -1,0 +1,2 @@
+minus=$( grep '^-' outfile_single0,25_t0_0125.out | wc -l )
+plus=$( grep '^1' outfile_single0,25_t0_0125.outt | wc -l )
